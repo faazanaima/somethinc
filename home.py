@@ -123,7 +123,7 @@ def show_home():
     
     # Left side image
     st.markdown('<div class="image-container">', unsafe_allow_html=True)
-    st.image(r"C:\proyek\somethinc\foto\brand_ambassador.jpg", use_container_width=True)
+    st.image("foto\brand_ambassador.jpg", use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # Right side text
